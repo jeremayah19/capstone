@@ -1,0 +1,121 @@
+.
+├── Kawit RHU/
+│   ├── Patient/
+│   │   ├── Consultation.php/
+│   │   │   └── consultation history, Laboratory Results, Prescriptions
+│   │   ├── Dashboard.php/
+│   │   │   └── upcoming appointments, latest lab results, Notifications
+│   │   ├── Appointment.php/
+│   │   │   └── book appointment, my appointments
+│   │   ├── Health_Record.php
+│   │   ├── Medical_Certificates.php
+│   │   └── Profile.php
+│   ├── Admin/
+│   │   ├── Rural_Health_Unit/
+│   │   │   ├── Dashboard.php/
+│   │   │   │   └── total patients today, appointments, urgent referrals
+│   │   │   ├── Patients.php/
+│   │   │   │   └── list of all patients, add new patient
+│   │   │   ├── Consultation.php/
+│   │   │   │   └── general consultation, followup, history
+│   │   │   ├── Appointments.php/
+│   │   │   │   └── barangay health unit, rhu special services
+│   │   │   ├── Referral.php/
+│   │   │   │   └── fillup referral form
+│   │   │   ├── Laboratory.php/
+│   │   │   │   └── encode lab result, view/print result
+│   │   │   ├── blank_referral_form.php
+│   │   │   ├── download_referral.php
+│   │   │   ├── get_certificate_details.php
+│   │   │   ├── get_patient_complete_info.php
+│   │   │   ├── get_patient_medical_history.php
+│   │   │   ├── get_prescriptions.php
+│   │   │   ├── print_certificate.php
+│   │   │   ├── process_certificate.php
+│   │   │   └── process_certificate_action.php
+│   │   ├── Barangay_health_Station/
+│   │   │   ├── Dashboard.php/
+│   │   │   │   └── appointments today, patients to follow up
+│   │   │   ├── Patients.php/
+│   │   │   │   └── list of all patients(BHS), Add/edit profile
+│   │   │   ├── Consultation.php/
+│   │   │   │   └── general consultation, view consultation history of BHS patients
+│   │   │   ├── Appointments.php/
+│   │   │   │   └── appointment for Maternity/NIP/Family planning
+│   │   │   ├── Referrals.php/
+│   │   │   │   └── fillup referral form
+│   │   │   └── Reports(BHS).php/
+│   │   │       └── BHU report(number of consultation, maternal visits, etc.)
+│   │   └── Pharmacy_admin/
+│   │       └── to be followed
+│   ├── Super_Admin/s
+│   │   └── to_be_followed
+│   └── Pictures/
+│       ├── logo1.png
+│       ├── logo2.png
+│       └── logo3.png
+├── login.php
+├── logout.php
+├── generate_certificate_pdf.php
+└── verify_certificate.php
+
+
+
+
+
+
+SAMPLE ACCOUNTS (All passwords: password)
+SUPER ADMIN
+Username: superadmin
+Email: superadmin@kawitrhu.gov.ph
+Role: System Administrator
+Description: Full system access, manage all users and settings
+RHU ADMINS
+Username: rhu_admin
+Email: rhuadmin@kawitrhu.gov.ph
+Role: RHU Administrator
+Username: dr.reyes
+Email: dr.reyes@kawitrhu.gov.ph
+Role: Municipal Health Officer
+Description: Medical consultations, prescriptions, referrals
+BHS ADMINS
+Username: bhs_binakayan
+Email: bhs.binakayan@kawitrhu.gov.ph
+Role: BHS Coordinator
+Assigned: Binakayan-Kanluran
+Username: bhs_kaingen
+Email: bhs.kaingen@kawitrhu.gov.ph
+Role: BHS Coordinator
+Assigned: Kaingen
+Username: bhs_gahak
+Email: bhs.gahak@kawitrhu.gov.ph
+Role: BHS Coordinator
+Assigned: Gahak
+PHARMACY ADMINS
+Username: pharmacy_admin
+Email: pharmacy@kawitrhu.gov.ph
+Role: Chief Pharmacist
+Username: pharmacist_rose
+Email: rose.tan@kawitrhu.gov.ph
+Role: Staff Pharmacist
+SAMPLE PATIENTS
+Username: juan.delacruz
+Patient ID: P-2024-0001
+Email: juan.delacruz@email.com
+Address: Binakayan-Kanluran
+Username: maria.santos
+Patient ID: P-2024-0002
+Email: maria.santos@email.com
+Address: Kaingen
+Username: pedro.garcia
+Patient ID: P-2024-0003
+Email: pedro.garcia@email.com
+Address: Gahak
+Username: ana.reyes.patient
+Patient ID: P-2024-0004
+Email: ana.reyes.patient@email.com
+Address: Panamitan
+Username: carlos.mendoza
+Patient ID: P-2024-0005
+Email: carlos.mendoza@email.com
+Address: Marulas
